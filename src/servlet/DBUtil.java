@@ -21,7 +21,7 @@ public class DBUtil {
 
     public static Connection getConnect() {
 
-        String url = "jdbc:mysql://localhost:3306/first_mysql_test?serverTimezone=UTC"; // ���ݿ��Url
+        String url = "jdbc:mysql://localhost:3306/stu_forest?serverTimezone=UTC"; // ���ݿ��Url
 
         Connection connecter = null;
 
@@ -29,7 +29,7 @@ public class DBUtil {
 
             Class.forName("com.mysql.jdbc.Driver"); // java���䣬�̶�д��
 
-            connecter = (Connection) DriverManager.getConnection(url, "root", "159159Aa");
+            connecter = (Connection) DriverManager.getConnection(url, "root", "123456");
 
         } catch (ClassNotFoundException e) {
 
