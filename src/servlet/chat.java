@@ -14,6 +14,7 @@ import java.sql.Statement;
 public class chat extends HttpServlet {
 
 	//test
+	//test2
     public chat(){
         super();
     }
