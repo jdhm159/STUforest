@@ -13,8 +13,7 @@ import java.sql.Statement;
 @WebServlet(description = "·¢ÏûÏ¢",urlPatterns = "/chat")
 public class chat extends HttpServlet {
 
-
-
+	//test
     public chat(){
         super();
     }
